@@ -4,4 +4,6 @@
 #
 
 echo Hello World!;
-exit 0;
+echo $DEPLOYMENT_GROUP_NAME;
+# exit 0;
+exit 1;

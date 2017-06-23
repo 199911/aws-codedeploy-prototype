@@ -1,0 +1,2 @@
+- Need to install codedeploy agent
+- Need ruby
