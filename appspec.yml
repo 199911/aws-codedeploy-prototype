@@ -1,0 +1,9 @@
+version: 0.0
+os: linux
+files:
+  - source: /
+    destination: /var/srv/my-app
+hooks:
+  ValidateService:
+    - location: validate_service.sh
+      runas: root
